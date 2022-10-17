@@ -30,9 +30,9 @@ const books =[
 ];
 
 // print out the books where the reading status is true to the console
-for (let f = 0; f <=books.length; f++) {
-  if(books[f].reading === true){
-    console.log(books[f])
+for (let i = 0; i < books.length; i++) {
+  if(books[i].reading === true){
+    console.log(books[i])
   }
   
 }
