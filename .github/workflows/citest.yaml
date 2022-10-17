@@ -2,7 +2,7 @@
 name: Github Action Demo
 on: [ push ]
 jobs:
-  Test:
+ Explore-GitHub-Actions:
     runs-on: windows-latest
     steps:
       - uses: Actions/checkout@v2
@@ -53,4 +53,4 @@ jobs:
       - run: python testify_python_task\task22_principles_of_encapsulation.py
       - run: python testify_python_task\task23_principles_of_oop_data_abstraction.py
       - run: python testify_python_task\task24_abstract_class_and_interface.py
-      - run: python testify_python_task\task25_oop_static_method
+      
