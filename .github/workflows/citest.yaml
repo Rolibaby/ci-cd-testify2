@@ -3,22 +3,22 @@ name: Github Action Demo
 on: [ push ]
 jobs:
   Test:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - uses: Actions/checkout@v2
       - run: echo "The job is automatically triggered by a ${{github.event_name}} event"
       - run: python main.py
-      - run: node javaScript_task\task3.js
-      - run: node javaScript_task\task5.js
-      - run: node javaScript_task\task6.js
-      - run: node javaScript_task\task6b.js
-      - run: node javaScript_task\task7.js
-      - run: node javaScript_task\task8.js
-      - run: node javaScript_task\task9.js
-      - run: node javaScript_task\task10.js
-      - run: node javaScript_task\task12.js
-      - run: node javaScript_task\task13.js
-      - run: node javaScript_task\task14.js
+      - run: node jsTask\task3.js
+      - run: node jsTask\task5.js
+      - run: node jsTask\task6.js
+      - run: node jsTask\task6b.js
+      - run: node jsTask\task7.js
+      - run: node jsTask\task8.js
+      - run: node jSTask\task9.js
+      - run: node jsTask\task10.js
+      - run: node jsTask\task12.js
+      - run: node jsTask\task13.js
+      - run: node jsTask\task14.js
       - run: node javaScriptcodingChallenge\Challenge1.js
       - run: node javaScriptcodingChallenge\Challenge2.js
       - run: node javaScriptcodingChallenge\Challenge3.js
