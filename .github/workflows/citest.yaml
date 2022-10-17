@@ -2,9 +2,55 @@
 name: Github Action Demo
 on: [ push ]
 jobs:
-  Test:
-    runs-on: ubuntu-latest
+ Explore-GitHub-Actions:
+    runs-on: windows-latest
     steps:
       - uses: Actions/checkout@v2
       - run: echo "The job is automatically triggered by a ${{github.event_name}} event"
       - run: python main.py
+      - run: node jsTask\task3.js
+      - run: node jsTask\task5.js
+      - run: node jsTask\task6.js
+      - run: node jsTask\task6b.js
+      - run: node jsTask\task7.js
+      - run: node jsTask\task8.js
+      - run: node jSTask\task9.js
+      - run: node jsTask\task10.js
+      - run: node jsTask\task12.js
+      - run: node jsTask\task13.js
+      - run: node jsTask\task14.js
+      - run: node javaScriptcodingChallenge\Challenge1.js
+      - run: node javaScriptcodingChallenge\Challenge2.js
+      - run: node javaScriptcodingChallenge\Challenge3.js
+      - run: node javaScriptcodingChallenge\Challenge4.js
+      - run: node javaScriptcodingChallenge\Challenge5.js
+      - run: node javaScriptcodingChallenge\Challenge6.js
+      - run: node javaScriptcodingChallenge\Challenge7.js
+      - run: node javaScriptcodingChallenge\Challenge8.js
+      - run: node javaScriptcodingChallenge\Challenge9.js
+      - run: node javaScriptcodingChallenge\Challenge10.js
+      - run: python testify_python_task\task1.py
+      - run: python testify_python_task\task2.py
+      - run: python testify_python_task\task3.py
+      - run: python testify_python_task\task4.py
+      - run: python testify_python_task\task5.py
+      - run: python testify_python_task\task6.py
+      - run: python testify_python_task\task7.py
+      - run: python testify_python_task\task8.py
+      - run: python testify_python_task\task9_basic_functions.py
+      - run: python testify_python_task\task10_anonymous_functions.py
+      - run: python testify_python_task\task11_argument_and_return_statements.py
+      - run: python testify_python_task\task12_functions_global_and_local_variables.py
+      - run: python testify_python_task\task13_functions_and_loop_recursion.py
+      - run: python testify_python_task\task14_basic_string_and_functions.py
+      - run: python testify_python_task\task15_basic_list_operations.py
+      - run: python testify_python_task\task16_basic_dictionary_operations.py
+      - run: python testify_python_task\task17_introduction_to_oop.py
+      - run: python testify_python_task\task18_oop_attributes.py
+      - run: python testify_python_task\task19_oop_methods.py
+      - run: python testify_python_task\task20_principles_of_oop_inheritance.py
+      - run: python testify_python_task\task21_principles_of_oop_polymorphism.py
+      - run: python testify_python_task\task22_principles_of_encapsulation.py
+      - run: python testify_python_task\task23_principles_of_oop_data_abstraction.py
+      - run: python testify_python_task\task24_abstract_class_and_interface.py
+      
