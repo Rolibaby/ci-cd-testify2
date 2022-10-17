@@ -1,6 +1,7 @@
 # create a class called Utilities
 class Utilities:
     # create a static method called print_name which accepts parameter
+    @staticmethod
     def print_name(electricity, water):
         return electricity + "," + water
 
